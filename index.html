@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="/css/jquery.jscrollpane.custom.css" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="/css/style.css" />
-		<script type="text/javascript" src="public/js/head.min.js"></script>
+		<script type="text/javascript" src="js/head.min.js"></script>
 		<noscript>
 			<style>
 				@media screen and (max-width: 700px) {
@@ -46,7 +46,7 @@
 						<div class="hs-inner">
 
 							<div class="about_us">
-								<img class="logo img-responsive" src="public/images/CSI_typefaceDk.png" alt="CSI logo">
+								<img class="logo img-responsive" src="images/CSI_typefaceDk.png" alt="CSI logo">
 								<h3>
 									We are a multi-disciplinary Chapter at VIT University comprising of some of <br>the best designers, developers, and
 									entrepreneurs at the campus.
@@ -141,10 +141,10 @@
 									<div class="col-sm-6 col-sm-offset-3">
 										<div id="wrapper">
 											<div id="login" class="form">
-												<form action="/form" autocomplete="on" method="POST">
+												<form id="dataSubmit" action="/form" autocomplete="on" method="POST">
 													<br>
 													<br>
-													<img src="public/media/social.svg" alt="profile">
+													<img src="media/social.svg" alt="profile">
 													<br>
 													<br>
 													<br>
@@ -158,8 +158,7 @@
 													<br>
 													<br>
 													<br>
-													<input class="button" type="submit" value="Submit" />
-
+													<input id="submitButton" class="button" type="submit" value="Submit" />
 												</form>
 											</div>
 										</div>
@@ -174,6 +173,13 @@
         </div>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script src="/js/main.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#submitButton').click(function(){
+					$('#dataSubmit').submit();
+				});
+			});
+		</script>
     </body>
 </html>

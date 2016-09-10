@@ -56,6 +56,10 @@ app.post('/form', function(req, res){
 
 function writejson(obj)
 {
-    fs.appendFile('./data.json', util.inspect(obj) , 'utf-8');
+    var arr = require('./data.json');
+    arr.push(obj);
+    fs.writeFile('data.json', JSON.stringify(arr), function (err) {
+        console.log(err);
+    });
 }
 app.listen(process.env.port || 3000);
