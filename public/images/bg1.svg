@@ -4,16 +4,9 @@
     <title>Desktop HD</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-size="144" font-family="BigJohn, Big John" font-weight="normal">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD" fill="#FFEAEA">
-            <text id="o">
-                <tspan x="-113" y="-134"></tspan>
-                <tspan x="-113" y="10"></tspan>
-                <tspan x="-113" y="154"></tspan>
-                <tspan x="-113" y="298" font-size="747"> </tspan>
-                <tspan x="223.15" y="298" font-size="820">o</tspan>
-                <tspan x="937.37" y="298" font-size="747"> </tspan>
-            </text>
+            <path d="M328.17,210.32 C328.17,380.06 465.11,517 634.85,517 C804.59,517 942.35,380.06 942.35,210.32 C942.35,40.58 804.59,-98 634.85,-98 C465.11,-98 328.17,40.58 328.17,210.32 L328.17,210.32 Z M781.63,209.5 C781.63,289.86 716.03,356.28 634.85,356.28 C554.49,356.28 488.89,289.86 488.89,209.5 C488.89,128.32 554.49,62.72 634.85,62.72 C716.03,62.72 781.63,128.32 781.63,209.5 L781.63,209.5 Z" id="o"></path>
         </g>
     </g>
 </svg>
