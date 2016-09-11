@@ -136,12 +136,16 @@ a:hover{
 	padding: 10px 0px;
 	text-shadow: 1px 0px 1px rgba(255, 255, 255, 0.8);
 }
+.hs-inner a{
+	text-transform: lowercase;
+	color: #1a1a1a;
+}
 .hs-inner p:first-letter{
 	font-size: 28px;
 }
 #introduction .hs-inner p:first-of-type{
 	font-size: 24px;
-	text-align: left;
+	text-align: center;
 	line-height: 36px;
 	font-style: italic;
 	color: #75838D;
